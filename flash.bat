@@ -26,15 +26,15 @@ echo.
 fastboot --set-active=a
 echo.
 echo Flashing images to be flashed in bootloader
-fastboot flash boot boot.img
-fastboot flash dtbo dtbo.img
-fastboot flash init_boot init_boot.img
-fastboot flash modem modem.img
-fastboot flash recovery recovery.img
-fastboot flash vbmeta vbmeta.img
-fastboot flash vbmeta_system vbmeta_system.img
-fastboot flash vbmeta_vendor vbmeta_vendor.img
-fastboot flash vendor_boot vendor_boot.img
+fastboot flash boot .\images\boot.img
+fastboot flash dtbo .\images\dtbo.img
+fastboot flash init_boot .\images\init_boot.img
+fastboot flash modem .\images\modem.img
+fastboot flash recovery .\images\recovery.img
+fastboot flash vbmeta .\images\vbmeta.img
+fastboot flash vbmeta_system .\images\vbmeta_system.img
+fastboot flash vbmeta_vendor .\images\vbmeta_vendor.img
+fastboot flash vendor_boot .\images\vendor_boot.img
 
 echo.
 echo Rebooting to FastbootD

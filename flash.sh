@@ -22,7 +22,7 @@ echo
 fastboot --set-active=a
 echo
 echo "Flashing images to bootloader..."
-fastboot flash boot ./images/images/boot.img
+fastboot flash boot ./images/boot.img
 fastboot flash dtbo ./images/dtbo.img
 fastboot flash init_boot ./images/init_boot.img
 fastboot flash modem ./images/modem.img
